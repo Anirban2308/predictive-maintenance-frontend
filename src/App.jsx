@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard'
 import Navbar from './components/Navbar'
 import Appointments from './pages/Appointments'
 import Analytics from './pages/Analytics'
+import MechanicDashboard from './pages/MechanicDashboard'
 const App = () => {
   return (
     <Router>
@@ -18,6 +19,8 @@ const App = () => {
          <Route path='/navbar' element={<Navbar/>}/>
          <Route path='/appointments'element={<Appointments/>}/>
          <Route path="/analytics" element={<Analytics />} />
+         <Route path="/mechanic" element={<MechanicDashboard />} />
+
       </Routes>
     </Router>
   )
