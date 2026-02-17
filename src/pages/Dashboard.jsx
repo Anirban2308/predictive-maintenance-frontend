@@ -42,7 +42,6 @@ return (
 <h1 className="font-bold text-xl">AutoPredict AI</h1>
 <ul className="flex items-center justify-between gap-6 font-medium">
 <li className="px-4 py-2 bg-red-600 rounded-lg text-white">Dashboard</li>
-<li>My Vehicle</li>
 <li>
   <Link to="/appointments">Appointments</Link>
 </li>
