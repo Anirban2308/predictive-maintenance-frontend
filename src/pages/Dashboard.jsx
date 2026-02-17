@@ -16,7 +16,15 @@ dispatch(fetchDashboardData());
 }, [dispatch]);
 
 
-if (loading) return <p className="text-white p-6">Loading dashboard...</p>;
+if (loading) {
+  return (
+    <div className="flex flex-col justify-center items-center min-h-screen bg-gray-900 text-red-500">
+      <p className="text-2xl font-bold animate-pulse">Loading dashboard, please wait…</p>
+      <p className="mt-2 text-gray-400">Initializing AI & fetching vehicle data</p>
+    </div>
+  );
+}
+
 if (error) return <p className="text-red-500 p-6">Error: {error}</p>;
 if (!data) return null;
 
