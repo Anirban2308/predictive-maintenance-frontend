@@ -34,7 +34,6 @@ const Analytics = () => {
           <li>
             <Link to="/dashboard">Dashboard</Link>
           </li>
-          <li>My Vehicle</li>
           <li>
             <Link to="/appointments">Appointments</Link>
           </li>

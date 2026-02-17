@@ -38,7 +38,6 @@ const Appointments = () => {
 
         <ul className="flex items-center gap-6 font-medium">
           <li><Link to="/dashboard">Dashboard</Link></li>
-          <li>My Vehicle</li>
           <li className="px-4 py-2 rounded-lg bg-red-600 text-white">
             <Link to="/appointments">Appointments</Link>
           </li>
